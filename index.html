@@ -13,7 +13,9 @@
     </head>
     <body>
         <div class="preload">
-            <img src="img/Rolling-1s-200px.gif">
+            <div>
+                <img src="img/Rolling-1s-200px.gif">
+            </div>
         </div>
         <div id="hide" class="hidden">
             <div id="nav">
@@ -243,12 +245,11 @@
         <script type="text/javascript" src="js/fullpage.js"></script>
         <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
         <script>
-
-            $(document).ready(function () {
+            $(window).on('load', function () {
+                $('.preload').fadeOut(500);
                 setTimeout(function(){
-                    $('.preload').fadeOut(500);
                     $('#hide').fadeIn(1000).removeClass('hidden');
-                }, 3000);
+                }, 1000);
             });
             var flag = 0
             var primaryColors = ['#F7FAFC','#CCE2EA', '#577260', '#354763', '#121212'];

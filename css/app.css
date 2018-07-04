@@ -15,7 +15,8 @@ body {
   font-family: serif-regular;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.25vw; }
+  font-size: 1.25vw;
+  position: relative; }
   body a, body a:visited {
     text-decoration: inherit;
     color: inherit;
@@ -480,5 +481,11 @@ body {
 
 .desc-main {
   color: #676d72; }
+
+.preload {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
 
 /*# sourceMappingURL=app.css.map */

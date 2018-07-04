@@ -1,0 +1,16 @@
+/* BASE Styles */
+body {
+  background: #343434;
+  color: lightgrey; }
+
+/* LAYOUT Styles */
+#header {
+  border: solid 1px black;
+  padding: 40px; }
+
+/* MODULE Styles */
+.widget {
+  border-radius: 100%;
+  border: dashed 1px white; }
+
+/*# sourceMappingURL=app.css.map */

@@ -98,7 +98,12 @@ body {
   margin: 0 10vw;
   white-space: nowrap;
   line-height: 2.5vw; }
-
+#foot2 {
+  display: inline-block;
+  position: absolute;
+  bottom: 2vw;
+  left: 50%;
+  transform: translateX(-65%); }
 #foot {
   display: inline-block;
   position: absolute;
